@@ -1,0 +1,317 @@
+* { 
+    margin: 0 auto;
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.cabecalho {  
+    background-color: #162E58;
+    min-height: 100px;
+    padding: 30px 50px 10px 50px;
+    position: relative;
+    box-shadow: 0 0 1em rgb(108, 108, 106);
+}
+
+a , a:link, a:hover, a:visited { 
+    text-decoration: none;
+    color: #ffffff;
+}
+
+body { 
+    background-color: #f8f6f6;
+    
+}
+
+.tudo { 
+    font-family: arial, sans-serif;
+    font-weight: 400;
+}
+
+.linha { 
+    clear: both;
+    margin-bottom: 20px;
+
+}
+
+.H2title{ 
+    font-size: 20px;
+   
+    
+}
+
+.tdPosicao{
+    text-align: center;
+}
+
+table, td, th { 
+    border-bottom: solid 1px #e2e2e2;
+    box-shadow: 1px solid blue;
+    border-collapse: collapse;
+    padding: 7px 2px 2px 2px;
+    padding-right: 9px;
+    
+}
+
+.imgClube { 
+    width: 25px;
+    height: 25px;
+}
+
+.imgClube2 { 
+    width: 25px;
+    height: 25px;
+    margin-top: 9px
+    
+}
+
+
+.risco {
+    width: 3px;
+    height: 40px;
+    background-color: #4285F4;
+    position: absolute;
+    margin-top: -32px;
+    margin-left: -2px;
+
+}
+
+.risco2 {
+    width: 3px;
+    height: 40px;
+    background-color: #FA7B17;
+    position: absolute;
+    margin-top: -32px;
+    margin-left: -2px;
+    
+
+}
+
+
+.divMenu { 
+    position: absolute;
+    bottom: 0;
+    width: 50%;
+    clear: both;
+    text-align: center;
+    padding-left: 21%;
+    padding-right: 21%;
+    text-align: center;
+}
+
+.itemMenu { 
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    width: 12.5%;
+    height: 40px;
+    font-size: 13px;
+    padding-left: 50px;
+    
+    
+    
+}
+
+.itemMenu:hover { 
+    background-color: black;
+}
+
+.classificacao { 
+    width: 50%;
+}
+
+.tableclassificacao{ 
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.H3titulogrupo{ 
+    font-size: 16px;
+    font-weight: 700;
+    padding: 5px 5px 5px 5px;
+    background-color: #ffffff;
+    padding-left: 20px;
+    padding-top: 20px;
+   
+    
+}
+
+
+
+.divgoleadores{ 
+    width: 50%;
+}
+
+.tableGoleadores{ 
+    width: 100%;
+    background-color: #ffffff;
+
+}
+
+
+
+.tableGoleadores td { 
+    padding: 3px 3px 3px 3px;
+}
+
+.tdJogador{ 
+    text-align: left;
+    width: 90%;
+}
+
+.spanNomeClube{ 
+    color: darkgrey;
+    font-size: 12px;
+}
+
+.tableJogos { 
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.divjogos { 
+    width: 50%;
+    padding-bottom: 50px;
+}
+
+.tableJogos { 
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.tableJogos .tdTableJogos{ 
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline-table;
+    
+
+    
+    
+}
+
+.tableJogos .tableJogo { 
+    width: 100%;
+    margin-right: 117px;
+   
+    
+    
+}
+
+.tableJogo .thTableJogo { 
+    text-align: left;
+    font-size: 14px;
+    padding: 10px 4px 4px 4px;
+
+}
+
+.tableJogo .tdClube{ 
+    text-align: left;
+    width: 80%;
+    font-size: 14px;
+    padding-left: 15px;
+    
+    
+}
+
+.tableJogo .tdHorario{ 
+    text-align: center;
+    font-size: 14px;
+}
+
+.tableJogos th, .tableJogos td{ 
+    border-bottom: 0px;
+}
+
+.thNomeClube{ 
+    width: 50%;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-weight: normal;
+    color: #70757a;
+}
+
+.tdNomeClube{ 
+    text-align: left;
+}
+
+.tdImgClube{ 
+    width: 5%;
+}
+
+.thUltimas { 
+    width: 20%;
+}
+
+.thPosicao{ 
+    width: 3%;
+    font-size: 14px;
+}
+
+.divEmp { 
+    background-image: url(../img/e.svg);
+    background-repeat: no-repeat;
+    height: 16px;
+    width: 16px;
+    float: right;
+    margin-right: 5px;
+}
+
+hr {
+    margin-top: 22px;
+    background-color: white;
+    height: 2px;
+    
+}
+
+.divVit {
+    background-image: url(../img/v.svg);
+    background-repeat: no-repeat;
+    height: 16px;
+    width: 16px;
+    float: right;
+    margin-right: 5px;
+}
+
+.divDer {
+    background-image: url(../img/d.svg);
+    background-repeat: no-repeat;
+    height: 18px;
+    width: 18px;
+    float: right;
+    margin-right: 5px;
+}
+
+
+
+h1 { 
+    color: #ffffff;
+    float: left;
+    min-width: 50%;
+    font-size: 20px;
+    text-align: left;
+    font-weight: 400;
+}
+
+th {
+    text-align: center;
+    margin-left: 30px;
+    font-size: 12px;
+    color: #70757a;
+    font-weight: 200;
+}
+
+.textjogador {
+    float: left;
+    position: absolute;
+    
+}
+
+.h2TituloSessao{
+    background-color: #ffffff;
+    padding: 20px 5px 5px 20px;
+}

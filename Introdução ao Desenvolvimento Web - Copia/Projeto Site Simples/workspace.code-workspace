@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\..\\..\\DESENVOLVIMENTO WEB"
+		},
+		{
+			"path": "..\\..\\..\\..\\exercicios limpos"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "DESENVOLVIMENTO WEB",
+		"files.associations": {
+			"stdio.h": "c"
+		}
+	}
+}
